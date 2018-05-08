@@ -7,8 +7,7 @@
     "url": "https://github.com/velomovies/project3-new-concepts-with-realtime-data"
   },
   "scripts": {
-    "start": "node app.js",
-    "postinstall": "gulp"
+    "start": "node app.js"
   },
   "license": "MIT",
   "devDependencies": {
