@@ -1,10 +1,13 @@
 {
-  "name": "app",
+  "name": "Refinity",
   "main": "app.js",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/detaiNL/detai-node-setup.git"
+    "url": "https://github.com/velomovies/project3-new-concepts-with-realtime-data"
+  },
+  "scripts": {
+    "start": "node app.js"
   },
   "license": "MIT",
   "devDependencies": {

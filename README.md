@@ -1,10 +1,10 @@
-# Refinite
+# Refinity
 
 This repo holds the project we did for café de Ceuvel in Amsterdam.
 
 ![Preview](src/images/preview.png)
 > Try the
-> [**prototype**](https://refinite.herokuapp.com/).
+> [**prototype**](https://refinity.herokuapp.com/).
 
 ## Background
 
