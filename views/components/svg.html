@@ -1,0 +1,16 @@
+<section>
+  <svg>
+    <path id="motionPath" d="M100,100 C200,0 200,200 100,100 C0,0 0,200 100,100z" />
+   
+    <circle id="circle" r="10" cx="0" cy="0" fill="tomato" />
+   
+    <animateMotion 
+             xlink:href="#circle"
+             dur="10s"
+             begin="0"
+             fill="freeze"
+             repeatCount="indefinite">
+      <mpath xlink:href="#motionPath" />
+    </animateMotion>
+  </svg>
+</section>
