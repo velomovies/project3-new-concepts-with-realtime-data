@@ -4,4 +4,36 @@ svg {
     stroke: #333333;
     stroke-width: 5;
   }
+
+  .active {
+    fill: #F7931E;
+  }
+
+  #circlePath {
+    opacity: 1;
+    transition: all .3s;
+    transition-delay: 1s;
+  }
+
+  #info {
+    circle {
+      &:hover {
+        fill: #fcb25d;
+        cursor: pointer;
+      }
+    }
+  }
+
+  #infoBox {
+    polygon {
+      opacity: 0; 
+      transform-origin: 0px 0px 0px;
+    }
+  }
+
+  &.hidden {
+    .st6, #circlePath, #infoBox {
+      opacity: 0;
+    }
+  }
 }

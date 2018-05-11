@@ -25,8 +25,33 @@ fieldset {
   fieldset legend {
     padding: 0; }
 
+section {
+  margin: .5em;
+  background: #ededed;
+  box-shadow: .1em .1em .1em #ededed;
+  max-height: 100vh; }
+
 /* component styles */
 svg path {
   fill: none;
   stroke: #333333;
   stroke-width: 5; }
+
+svg .active {
+  fill: #F7931E; }
+
+svg #circlePath {
+  opacity: 1;
+  transition: all .3s;
+  transition-delay: 1s; }
+
+svg #info circle:hover {
+  fill: #fcb25d;
+  cursor: pointer; }
+
+svg #infoBox polygon {
+  opacity: 0;
+  transform-origin: 0px 0px 0px; }
+
+svg.hidden .st6, svg.hidden #circlePath, svg.hidden #infoBox {
+  opacity: 0; }
