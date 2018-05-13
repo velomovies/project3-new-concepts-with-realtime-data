@@ -32,17 +32,14 @@ section {
   max-height: 100vh; }
 
 /* component styles */
-svg path {
+svg #infinity {
   fill: none;
   stroke: #333333;
   stroke-width: 5; }
 
-svg .active {
-  fill: #F7931E; }
-
 svg #circlePath {
   opacity: 1;
-  transition: all .3s;
+  transition: all 1s;
   transition-delay: 1s; }
 
 svg #info circle:hover {
@@ -51,7 +48,107 @@ svg #info circle:hover {
 
 svg #infoBox polygon {
   opacity: 0;
-  transform-origin: 0px 0px 0px; }
+  transform-origin: 0px 0px 0px;
+  z-index: 3; }
+
+svg #lettuce g.green:hover {
+  cursor: pointer; }
+  svg #lettuce g.green:hover path {
+    opacity: .5; }
 
 svg.hidden .st6, svg.hidden #circlePath, svg.hidden #infoBox {
   opacity: 0; }
+
+svg #lettuce .green.hidden, svg #catfish.hidden {
+  opacity: 0; }
+
+svg.hidden #lettuce g.green:hover {
+  cursor: default; }
+  svg.hidden #lettuce g.green:hover .st10 {
+    fill: #44AF69;
+    opacity: 1; }
+  svg.hidden #lettuce g.green:hover .st11 {
+    fill: #44AF69;
+    opacity: .6; }
+
+svg .infoText {
+  opacity: 0; }
+
+svg .st0 {
+  fill: #29ABE2; }
+
+svg .st1 {
+  fill: none;
+  stroke: #0071BC;
+  stroke-width: 5;
+  stroke-miterlimit: 10; }
+
+svg .st2 {
+  fill: #C69C6D; }
+
+svg .st3 {
+  fill: none;
+  stroke: #A67C52;
+  stroke-width: 5;
+  stroke-miterlimit: 10; }
+
+svg .st4 {
+  fill: none;
+  stroke: #333333;
+  stroke-width: 15; }
+
+svg .st5 {
+  fill: #F7931E;
+  stroke: #ededed;
+  stroke-width: 5;
+  stroke-miterlimit: 10; }
+
+svg .st6 {
+  fill: #333333;
+  stroke: #ededed;
+  stroke-width: 5; }
+
+svg .st7 {
+  fill: #FFFFFF;
+  stroke: #333333;
+  stroke-width: 5.9687;
+  stroke-miterlimit: 10; }
+
+svg .st8 {
+  fill: #2274A5;
+  opacity: .6; }
+
+svg .st9 {
+  fill: #854D27;
+  opacity: .6; }
+
+svg .st10 {
+  fill: #44AF69; }
+
+svg .st11 {
+  fill: #44AF69;
+  opacity: .6; }
+
+svg .st12 {
+  fill: none;
+  stroke: #6B5648;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-miterlimit: 10; }
+
+svg .st13 {
+  fill: none;
+  stroke: #6B5648;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10; }
+
+svg .st14 {
+  fill: none;
+  stroke: #6B5648;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-miterlimit: 10; }
+
+svg .active {
+  fill: #F7931E; }
