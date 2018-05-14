@@ -11,26 +11,25 @@
 	.st5{fill:none;stroke:#333333;stroke-width:15;}
 	.st6{fill:#F7931E;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
 	.st7{fill:#333333;stroke:#FFFFFF;stroke-width:5;}
-	.st8{display:none;}
-	.st9{display:inline;}
-	.st10{fill:#FFFFFF;stroke:#333333;stroke-width:5.9687;stroke-miterlimit:10;}
-	.st11{font-size:98.6415px;}
-	.st12{font-size:24px;}
-	.st13{font-size:14px;}
-	.st14{font-family:'TisaOT-Bold';}
-	.st15{fill:#29ABE2;}
-	.st16{fill:none;stroke:#333333;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
-	.st17{fill:#44AF69;}
-	.st18{opacity:0.6;fill:#44AF69;enable-background:new    ;}
-	.st19{fill:none;stroke:#333333;stroke-width:5.9687;stroke-miterlimit:10;}
-	.st20{fill:none;stroke:#333333;stroke-width:5.9687;stroke-miterlimit:10;stroke-dasharray:5.1667,5.1667;}
-	.st21{enable-background:new    ;}
-	.st22{fill:none;}
-	.st23{fill:#FF985D;}
-	.st24{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-	.st25{fill:none;stroke:#000000;stroke-miterlimit:10;}
-	.st26{display:inline;opacity:0.32;fill:#2274A5;enable-background:new    ;}
-	.st27{font-size:21px;}
+	.st8{fill:#FFFFFF;stroke:#333333;stroke-width:5.9687;stroke-miterlimit:10;}
+	.st9{font-size:98.6415px;}
+	.st10{font-size:24px;}
+	.st11{font-size:14px;}
+	.st12{font-family:'TisaOT-Bold';}
+	.st13{fill:#29ABE2;}
+	.st14{fill:none;stroke:#333333;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st15{fill:#44AF69;}
+	.st16{opacity:0.6;fill:#44AF69;enable-background:new    ;}
+	.st17{fill:none;stroke:#333333;stroke-width:5.9687;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#333333;stroke-width:5.9687;stroke-miterlimit:10;stroke-dasharray:5.1667,5.1667;}
+	.st19{enable-background:new    ;}
+	.st20{fill:none;}
+	.st21{fill:#FF985D;}
+	.st22{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st23{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st24{display:none;}
+	.st25{display:inline;opacity:0.32;fill:#2274A5;enable-background:new    ;}
+	.st26{font-size:21px;}
 </style>
 <text transform="matrix(1 0 0 1 285.6002 89.0503)" class="st0 st1">De Aquaponics</text>
 <g id="Laag_1_2_">
@@ -87,23 +86,23 @@
 			<circle id="infoPlantGrowth" class="st7" cx="1214.5" cy="394.5" r="35"/>
 			<circle id="infoFishFood" class="st7" cx="1019.5" cy="534" r="35"/>
 		</g>
-		<g id="infoBox" class="st8">
-			<g class="st9">
-				<polygon id="infoBox_1_" class="st10" points="400.1,171.5 574.8,171.5 594.2,183.9 612.5,171.5 788.2,171.5 788.2,14.7 
+		<g id="infoBox">
+			<g>
+				<polygon id="infoBox_1_" class="st8" points="400.1,171.5 574.8,171.5 594.2,183.9 612.5,171.5 788.2,171.5 788.2,14.7 
 					400.1,14.7 				"/>
-				<text transform="matrix(1 0 0 1 456.8393 126.9504)" class="st0 st11">30</text>
-				<text transform="matrix(1 0 0 1 629.2002 91.4005)" class="st0 st12">meervallen</text>
-				<text transform="matrix(1 0 0 1 629.2002 120.2005)" class="st0 st12">in het water</text>
-				<text transform="matrix(1 0 0 1 448.8391 55.8506)" class="st0 st12">Op dit moment</text>
+				<text transform="matrix(1 0 0 1 456.8393 126.9504)" class="st0 st9">30</text>
+				<text transform="matrix(1 0 0 1 629.2002 91.4005)" class="st0 st10">meervallen</text>
+				<text transform="matrix(1 0 0 1 629.2002 120.2005)" class="st0 st10">in het water</text>
+				<text transform="matrix(1 0 0 1 448.8391 55.8506)" class="st0 st10">Op dit moment</text>
 			</g>
-			<g class="st9">
-				<polygon id="infoBox1_1_" class="st10" points="26.4,272.1 201.2,272.1 220.5,284.5 238.8,272.1 414.6,272.1 414.6,115.4 
+			<g>
+				<polygon id="infoBox1_1_" class="st8" points="26.4,272.1 201.2,272.1 220.5,284.5 238.8,272.1 414.6,272.1 414.6,115.4 
 					26.4,115.4 				"/>
-				<text transform="matrix(1 0 0 1 45.6924 147.9676)" class="st0 st12">De vissen scheiden ammonia uit</text>
-				<text transform="matrix(1 0 0 1 255.5002 192.052)" class="st0 st13">Er zit </text>
-				<text transform="matrix(1 0 0 1 255.5002 208.852)" class="st14 st13">boven gemiddeld</text>
-				<text transform="matrix(1 0 0 1 370.1002 208.852)" class="st0 st13"> </text>
-				<text transform="matrix(1 0 0 1 255.5002 225.652)" class="st0 st13">ammonia in het water</text>
+				<text transform="matrix(1 0 0 1 45.6924 147.9676)" class="st0 st10">De vissen scheiden ammonia uit</text>
+				<text transform="matrix(1 0 0 1 255.5002 192.052)" class="st0 st11">Er zit </text>
+				<text transform="matrix(1 0 0 1 255.5002 208.852)" class="st12 st11">boven gemiddeld</text>
+				<text transform="matrix(1 0 0 1 370.1002 208.852)" class="st0 st11"> </text>
+				<text transform="matrix(1 0 0 1 255.5002 225.652)" class="st0 st11">ammonia in het water</text>
 				<g>
 					<path d="M135,213c1.9,0.5,3.7,0.9,5.4,1.3c-0.6,0.3-1.2,0.8-1.8,1.4c-0.3,0.3-0.6,0.6-0.9,1c-2.4,2.8-5.9,7-12.1,6.1
 						c-8.6-1.3-25-9.1-24.8-11.7c0.1-1.3,0.9-1.6,2.4-2.2c1.3-0.5,2.9-1.1,3.7-2.9c1.7,0.4,3.5,0.9,5.2,1.3l-3.3,2.7
@@ -156,15 +155,15 @@
 					<circle class="st3" cx="78.9" cy="251.2" r="4"/>
 				</g>
 			</g>
-			<g class="st9">
-				<polygon id="infoBox2_1_" class="st10" points="207.1,541.6 381.8,541.6 401.2,554 419.5,541.6 595.2,541.6 595.2,384.9 
+			<g>
+				<polygon id="infoBox2_1_" class="st8" points="207.1,541.6 381.8,541.6 401.2,554 419.5,541.6 595.2,541.6 595.2,384.9 
 					207.1,384.9 				"/>
-				<text transform="matrix(1 0 0 1 220.5002 422.4261)" class="st0 st12">Bacteriën zetten de ammonia om</text>
-				<text transform="matrix(1 0 0 1 220.5002 451.2261)" class="st0 st12">in voedingsstoffen voor planten</text>
-				<text transform="matrix(1 0 0 1 227.5002 482.2278)" class="st0 st13">Er zitten </text>
-				<text transform="matrix(1 0 0 1 285.6002 482.2278)" class="st14 st13">gemiddeld</text>
-				<text transform="matrix(1 0 0 1 227.5002 499.0278)" class="st0 st13">aantal nitrieten en</text>
-				<text transform="matrix(1 0 0 1 227.5002 515.8278)" class="st0 st13">nitraten in het water</text>
+				<text transform="matrix(1 0 0 1 220.5002 422.4261)" class="st0 st10">Bacteriën zetten de ammonia om</text>
+				<text transform="matrix(1 0 0 1 220.5002 451.2261)" class="st0 st10">in voedingsstoffen voor planten</text>
+				<text transform="matrix(1 0 0 1 227.5002 482.2278)" class="st0 st11">Er zitten </text>
+				<text transform="matrix(1 0 0 1 285.6002 482.2278)" class="st12 st11">gemiddeld</text>
+				<text transform="matrix(1 0 0 1 227.5002 499.0278)" class="st0 st11">aantal nitrieten en</text>
+				<text transform="matrix(1 0 0 1 227.5002 515.8278)" class="st0 st11">nitraten in het water</text>
 				<g>
 					<path d="M498.1,480.8l-6.2,0.7c-1.9,0.2-3.7-1.2-3.9-3.1l0,0c-0.2-1.9,1.2-3.7,3.1-3.9l6.2-0.7c1.9-0.2,3.7,1.2,3.9,3.1l0,0
 						C501.4,478.8,500.1,480.6,498.1,480.8z"/>
@@ -202,29 +201,29 @@
 					<circle class="st3" cx="545.7" cy="513.6" r="2.5"/>
 				</g>
 			</g>
-			<g class="st9">
-				<polygon id="infoBox4" class="st10" points="799.1,210.1 973.8,210.1 993.2,222.5 1011.5,210.1 1187.2,210.1 1187.2,53.3 
+			<g>
+				<polygon id="infoBox4" class="st8" points="799.1,210.1 973.8,210.1 993.2,222.5 1011.5,210.1 1187.2,210.1 1187.2,53.3 
 					799.1,53.3 				"/>
-				<rect x="816.8" y="148" class="st15" width="33.2" height="18.8"/>
-				<line class="st16" x1="816.7" y1="148" x2="1169.7" y2="148"/>
-				<line class="st16" x1="816.8" y1="166.8" x2="1169.8" y2="166.8"/>
-				<text transform="matrix(1 0 0 1 816.704 91.4002)" class="st0 st12">Het water met voedingsstoffen </text>
-				<text transform="matrix(1 0 0 1 816.704 120.2002)" class="st0 st12">wordt naar de planten gepompt</text>
-				<text transform="matrix(1 0 0 1 816.8124 192.0519)" class="st0 st13">Op dit moment </text>
-				<text transform="matrix(1 0 0 1 917.1123 192.0519)" class="st14 st13">5</text>
-				<text transform="matrix(1 0 0 1 924.9124 192.0519)" class="st0 st13"> liter per minuut</text>
+				<rect x="816.8" y="148" class="st13" width="33.2" height="18.8"/>
+				<line class="st14" x1="816.7" y1="148" x2="1169.7" y2="148"/>
+				<line class="st14" x1="816.8" y1="166.8" x2="1169.8" y2="166.8"/>
+				<text transform="matrix(1 0 0 1 816.704 91.4002)" class="st0 st10">Het water met voedingsstoffen </text>
+				<text transform="matrix(1 0 0 1 816.704 120.2002)" class="st0 st10">wordt naar de planten gepompt</text>
+				<text transform="matrix(1 0 0 1 816.8124 192.0519)" class="st0 st11">Op dit moment </text>
+				<text transform="matrix(1 0 0 1 917.1123 192.0519)" class="st12 st11">5</text>
+				<text transform="matrix(1 0 0 1 924.9124 192.0519)" class="st0 st11"> liter per minuut</text>
 			</g>
-			<g class="st9">
-				<polygon id="infoBox5" class="st10" points="1020.5,322.6 1195.2,322.6 1214.5,335 1232.9,322.6 1408.6,322.6 1408.6,165.8 
+			<g>
+				<polygon id="infoBox5" class="st8" points="1020.5,322.6 1195.2,322.6 1214.5,335 1232.9,322.6 1408.6,322.6 1408.6,165.8 
 					1020.5,165.8 				"/>
-				<text transform="matrix(1 0 0 1 1043.6691 200.0002)" class="st0 st12">Om de drie dagen wordt de </text>
-				<text transform="matrix(1 0 0 1 1043.6691 228.8002)" class="st0 st12">sla geoogst</text>
-				<text transform="matrix(1 0 0 1 1042.2737 270)" class="st0 st13">14 mei is er </text>
-				<text transform="matrix(1 0 0 1 1116.8737 270)" class="st14 st13">5,1</text>
-				<text transform="matrix(1 0 0 1 1135.8737 270)" class="st0 st13"> kg sla geoogst. </text>
-				<text transform="matrix(1 0 0 1 1042.2737 286.8)" class="st0 st13">Ongeveer </text>
-				<text transform="matrix(1 0 0 1 1107.0737 286.8)" class="st14 st13">14</text>
-				<text transform="matrix(1 0 0 1 1122.8737 286.8)" class="st0 st13"> kroppen sla.</text>
+				<text transform="matrix(1 0 0 1 1043.6691 200.0002)" class="st0 st10">Om de drie dagen wordt de </text>
+				<text transform="matrix(1 0 0 1 1043.6691 228.8002)" class="st0 st10">sla geoogst</text>
+				<text transform="matrix(1 0 0 1 1042.2737 270)" class="st0 st11">14 mei is er </text>
+				<text transform="matrix(1 0 0 1 1116.8737 270)" class="st12 st11">5,1</text>
+				<text transform="matrix(1 0 0 1 1135.8737 270)" class="st0 st11"> kg sla geoogst. </text>
+				<text transform="matrix(1 0 0 1 1042.2737 286.8)" class="st0 st11">Ongeveer </text>
+				<text transform="matrix(1 0 0 1 1107.0737 286.8)" class="st12 st11">14</text>
+				<text transform="matrix(1 0 0 1 1122.8737 286.8)" class="st0 st11"> kroppen sla.</text>
 				<g>
 					<path d="M1291.5,263.2v1.8c0,0.3,0.1,0.5,0.4,0.8s0.7,0.6,1.2,0.8c1.1,0.5,2.6,0.8,4.3,0.8h39.1c1.7,0,3.2-0.3,4.3-0.8
 						c0.5-0.2,1-0.5,1.2-0.8c0.3-0.3,0.4-0.5,0.4-0.8v-1.8C1342.3,263.2,1291.5,263.2,1291.5,263.2z"/>
@@ -238,30 +237,30 @@
 						C1312.4,285.3,1312.6,285.2,1312.8,285.2L1312.8,285.2z"/>
 				</g>
 				<g>
-					<path class="st17" d="M1301.9,222.9c0.9-0.3,1.4-0.7,1.9-1c0.3-0.2,0.7-0.4,1.1-0.7c0.2-0.1,0.6-0.1,0.8,0
+					<path class="st15" d="M1301.9,222.9c0.9-0.3,1.4-0.7,1.9-1c0.3-0.2,0.7-0.4,1.1-0.7c0.2-0.1,0.6-0.1,0.8,0
 						c0.2,0.1,0.4,0.3,0.5,0.6c1.7-0.7,9-2.8,16.2,2.6c0.3-0.2,0.7-0.2,1.2-0.1l0.5,0.1l0.2,0.4c0.2,0.7,1.1,1.5,2.2,2.4
 						c0.8,0.7,1.8,1.5,2.8,2.5c1.6,1.7,3.5,4.7,4.5,8.2c0.9-0.8,1.5-1.7,1.6-2.6c0.1-0.6,0-1.1-0.2-1.7c-0.2-0.6-0.3-1.2-0.4-2.1
 						c-0.1-0.9,0.2-1.8,0.3-2.7c0.2-0.8,0.4-1.8,0.2-2.3c-0.2-0.4-0.7-0.8-1.3-1.4c-0.7-0.6-1.6-1.4-2.4-2.4
 						c-1.1-1.4-1.3-3.1-1.5-4.4c-0.1-0.7-0.2-1.4-0.4-1.7c-0.7-1-2.4-2-4.3-1.9c-1.6,0.1-2.6-0.4-3.6-1c-0.6-0.3-1.2-0.7-2-0.9
 						c-2.6-0.9-7.7,0.2-9.3,0.5c-2.1,0.5-2.8,1.3-3.3,2.2c-0.2,0.2-0.2,0.3-0.4,0.6c-1,1.1-3.3,2.8-6.1,2.8c-1.6,0-4.3,4.8-5.4,6.6
 						c-0.2,0.3-0.4,0.7-0.5,0.9c-0.4,0.7-0.4,1.3-0.3,1.8C1297.1,224.7,1300.3,223.5,1301.9,222.9z"/>
-					<path class="st18" d="M1307.4,223.2c0.1,0.1,0.2,0.1,0.2,0.2c0.4,0.3,0.9,0.7,1.2,1.1c0.2,0.2,0.5,0.2,1.1,0.2
+					<path class="st16" d="M1307.4,223.2c0.1,0.1,0.2,0.1,0.2,0.2c0.4,0.3,0.9,0.7,1.2,1.1c0.2,0.2,0.5,0.2,1.1,0.2
 						c0.6-0.1,1.4-0.2,2.2,0.4c0.9,0.7,1.1,1.9,1.4,3c0.2,0.7,0.2,1.5,0.6,1.9c0.2,0.3,0.7,0.4,1.1,0.6c0.2,0.1,0.7,0.2,1,0.3
 						c0.1-0.1,0.2-0.2,0.4-0.3c0.7-0.3,1.2-0.6,1.7-0.8c0.7-0.3,1.5-0.6,2-1.1c0.7-0.7,0.7-0.8,0.7-1.3c0-0.2,0-0.5,0-0.7
 						c0.1-0.3,0.2-0.6,0.2-0.8C1315.5,221.4,1309.6,222.6,1307.4,223.2z"/>
-					<path class="st17" d="M1291.4,236.6c0-0.1,0-0.1,0-0.2c-0.1-5.9-4.6-9-4.7-9c-0.4-0.2-0.5-0.7-0.2-1.1c0.2-0.4,0.7-0.5,1.1-0.2
+					<path class="st15" d="M1291.4,236.6c0-0.1,0-0.1,0-0.2c-0.1-5.9-4.6-9-4.7-9c-0.4-0.2-0.5-0.7-0.2-1.1c0.2-0.4,0.7-0.5,1.1-0.2
 						c0.2,0.1,3.3,2.2,4.6,6.3c0.2-0.7,0.6-1.4,0.9-2.1c-0.3-0.6-1.1-2.4,0-4.3c0.2-0.2,0.3-0.6,0.5-0.9c2.1-3.7,4.4-7.5,6.8-7.5
 						c2,0,4.1-1.3,4.9-2.3c0.2-0.2,0.2-0.3,0.3-0.5s0.2-0.3,0.4-0.5c-0.2-0.4-0.8-0.9-1.8-0.6c-1.1,0.4-1.8,0.9-2.6,1.5
 						c-0.8,0.7-1.8,1.4-3.3,2c-2,0.7-2.8,0.6-4.1,0.3c-0.7-0.2-1.5-0.3-2.8-0.3c-3.1,0-6.8,2.4-9.4,5.9c-1.4,1.9-0.7,4.4,0.1,6.6
 						c0.8,2.3,0.4,5.1-0.4,6.8c-0.7,1.5-0.7,2.9-0.3,3.2c0.7,0.4,1.1,1.1,1.1,1.8c1.5-0.6,2.9-0.8,3.9-1.1l0.4-0.1
 						c1.5-0.3,2.9,0.4,4.2,1c0.2,0.1,0.4,0.2,0.7,0.2C1291.4,240.7,1291.2,238.8,1291.4,236.6z"/>
-					<path class="st17" d="M1334.1,245.9c0.6-0.3,1.5-0.9,2.1-1.4c1.3-0.8,2.7-1.8,4-2.4c2.9-1.3,5.5-0.3,6.4,0.6
+					<path class="st15" d="M1334.1,245.9c0.6-0.3,1.5-0.9,2.1-1.4c1.3-0.8,2.7-1.8,4-2.4c2.9-1.3,5.5-0.3,6.4,0.6
 						c0.2,0.2,0.3,0.3,0.4,0.5l0.1,0.1c0.9-0.8,2.2-2.3,2.2-3.5c0-0.8-0.4-1.9-0.7-2.8c-0.2-0.5-0.3-0.9-0.5-1.3
 						c-0.2-0.7-0.1-1.5,0.1-2.4c0.2-1.1,0.3-2.5,0-3.5c-0.7-1.6-1.7-2.6-3.6-3.2c-0.4-0.2-0.8-0.2-1.1-0.3c-1.4-0.4-2.5-0.7-3.7-2.4
 						c-1.5-2-2.6-3.3-4.1-3.7c-1-0.2-2.5,0.1-3.6,0.3c0.2,0.5,0.4,1.1,0.7,1.5c0.7,1,1.5,1.6,2.2,2.2c0.8,0.7,1.5,1.2,1.8,2
 						c0.3,0.9,0.1,2-0.2,3.1c-0.2,0.8-0.3,1.6-0.3,2.3s0.2,1.2,0.3,1.7c0.2,0.7,0.4,1.5,0.2,2.4c-0.3,1.5-1.2,2.8-2.8,4.1
 						C1334.3,241.8,1334.4,243.9,1334.1,245.9z"/>
-					<path class="st18" d="M1316.4,236.8c-0.5-1.1-1.1-2.8-1-4.2c0-0.1-0.1-0.2-0.1-0.2c0-0.1,0-0.1,0-0.1c-0.1-0.1-0.3-0.2-0.6-0.2
+					<path class="st16" d="M1316.4,236.8c-0.5-1.1-1.1-2.8-1-4.2c0-0.1-0.1-0.2-0.1-0.2c0-0.1,0-0.1,0-0.1c-0.1-0.1-0.3-0.2-0.6-0.2
 						c-0.6-0.2-1.4-0.3-2-1.1c-0.6-0.7-0.7-1.6-0.9-2.5c-0.2-0.8-0.3-1.7-0.7-2c-0.3-0.2-0.6-0.2-1.1-0.2c-0.7,0.1-1.5,0.2-2.4-0.7
 						c-0.3-0.3-0.7-0.7-1.1-0.9c-0.7-0.5-1.2-1-1.6-1.5c-0.1,0.1-0.2,0.2-0.3,0.2c-0.5,0.3-1.1,0.7-2.2,1.1
 						c-1.6,0.6-4.6,1.7-7.2,5.6c-3.2,4.6-2.2,10.2-1.7,12c0.3-0.2,0.7-0.3,1-0.6c0.8-0.5,1.7-1.1,2.7-0.9h0.4
@@ -270,7 +269,7 @@
 						c0.2,0.1,0.5,0.1,0.8,0c-0.9-1.2-2.2-3.3-2.1-5.2c0-3.3,1.5-4.6,3.1-5.8C1316.8,238.4,1316.7,237.4,1316.4,236.8z
 						 M1300.2,233.3c-0.2,0.1-4.6,1.7-4.6,6.3c0,0.4-0.4,0.9-0.8,0.9c-0.5,0-0.8-0.5-0.8-1c0.1-5.8,5.7-7.8,5.7-7.8
 						c0.4-0.2,0.9,0.1,1.1,0.5C1300.9,232.6,1300.6,233.1,1300.2,233.3z"/>
-					<path class="st18" d="M1323.8,251.6c0.2-0.2,0.6-0.9,0.8-1.5c0.7-1.4,1.5-3,3-3.4c0.6-0.2,1-0.2,1.3-0.2
+					<path class="st16" d="M1323.8,251.6c0.2-0.2,0.6-0.9,0.8-1.5c0.7-1.4,1.5-3,3-3.4c0.6-0.2,1-0.2,1.3-0.2
 						c0.1-0.6,0.2-1.1,0.2-1.5c-1-3.9-4.7-4.9-4.8-4.9c-0.4-0.1-0.7-0.6-0.6-1s0.6-0.7,1-0.6c0.2,0,2.6,0.7,4.5,2.8
 						c-0.6-5.9-3.9-8.3-4.1-8.4c-0.4-0.2-0.5-0.7-0.2-1.1c0.2-0.4,0.7-0.5,1.1-0.2c0.2,0.2,5.5,3.8,4.8,13.3c0,0.2,0,0.2,0,0.3
 						c-0.1,0.5-0.1,1.1-0.2,1.5c0.1,0,0.1,0,0.2,0c0.7-0.1,0.9-0.2,1.1-0.4c0.1-0.1,0.2-0.1,0.3-0.2c1.5-6.2-1.7-12.6-4.3-15.4
@@ -278,7 +277,7 @@
 						c-0.8,0.8-1.7,1.1-2.6,1.5c-0.5,0.2-1,0.4-1.5,0.7c-0.6,0.3-0.3,2.2,0.6,4.2c1.1,2.5-1.2,4.5-2,5c-1.6,1.4-2.5,2.2-2.6,4.4
 						c-0.1,1.6,1.5,3.9,2.4,4.9c1-0.1,2-0.2,3.2,0.2c1.1,0.3,1.6,1.1,2.1,2c0.1,0,0.1,0,0.2,0C1321.6,252.8,1323,252.5,1323.8,251.6
 						z"/>
-					<path class="st17" d="M1326.7,259.7c-0.2-0.2-0.4-0.4-0.7-0.7c-0.7-1-1.6-2-3.1-2.1c-1.6-0.1-2.4-1.5-3-2.6
+					<path class="st15" d="M1326.7,259.7c-0.2-0.2-0.4-0.4-0.7-0.7c-0.7-1-1.6-2-3.1-2.1c-1.6-0.1-2.4-1.5-3-2.6
 						c-0.5-0.9-0.9-1.7-1.7-2c-1.1-0.4-2.3-0.2-3.3-0.1c-0.8,0.2-1.6,0.2-2.4,0.1c-1.1-0.2-1.5-1-1.8-1.5c-0.2-0.5-0.4-0.7-0.7-0.8
 						c-0.5-0.2-0.8-0.1-1.1,0c-0.4,0.2-1.1,0.3-1.7-0.2s-0.7-1.3-0.7-2.1c0-0.4-0.1-1-0.2-1.1l-0.4-0.2c-0.7-0.4-2.1-1.1-2.5-1.1
 						h-0.1c-0.7-0.2-1.6-0.3-2.6-1.8c-0.6-0.8-2-1-3.3-1.1h-0.4c-0.5,0-1.1,0.3-1.6,0.7c-0.9,0.6-2,1.2-3.3,0.8
@@ -292,7 +291,7 @@
 						s-0.5-0.1-0.7-0.3C1303.6,256.1,1303.6,255.6,1304,255.3z M1317.7,260.7c-0.2,0.3-0.4,0.5-0.7,0.5c-0.1,0-0.2,0-0.3-0.1
 						c-6.8-2.8-12.6-0.7-12.6-0.7c-0.4,0.2-0.9,0-1.1-0.5c-0.2-0.4,0-0.9,0.5-1.1c0.2-0.1,6.5-2.5,13.8,0.7
 						C1317.7,259.8,1317.9,260.3,1317.7,260.7z"/>
-					<path class="st17" d="M1349.9,248.5c-0.1-0.2-0.2-0.7-0.2-0.9c-0.3-1.1-0.6-2.1-1.1-2.1l0,0c-0.6,0-1.1-0.1-1.5-0.2
+					<path class="st15" d="M1349.9,248.5c-0.1-0.2-0.2-0.7-0.2-0.9c-0.3-1.1-0.6-2.1-1.1-2.1l0,0c-0.6,0-1.1-0.1-1.5-0.2
 						s-0.7-0.3-1-0.6c-0.2-0.2-0.3-0.3-0.5-0.5c-0.1-0.2-0.2-0.2-0.3-0.3c-0.5-0.5-2.4-1.2-4.6-0.2c-1.1,0.5-2.5,1.5-3.7,2.3
 						c-1.9,1.2-2.9,1.9-3.7,1.9c-0.2,0-0.2,0-0.3,0l0,0c-0.1,0-0.2,0.1-0.2,0.2c-0.3,0.2-0.7,0.4-1.7,0.6s-1.5,0-1.9-0.2
 						c-0.3-0.1-0.5-0.2-1.1,0c-0.7,0.2-1.5,1.5-2,2.5c-0.3,0.7-0.7,1.4-1.1,1.8c-0.7,0.8-2,1.5-3.1,1.6c0.4,0.6,0.7,1,1.2,1
@@ -301,39 +300,39 @@
 						c1.3-2,3.5-4.6,4.9-5.5c1.2-0.8,3.8-1.2,4.9,0c0.1,0,0.1,0,0.3-0.1C1349.5,250.3,1350.1,249,1349.9,248.5z"/>
 				</g>
 			</g>
-			<g class="st9">
-				<polygon id="infoBox6" class="st10" points="825.5,471.6 1000.2,471.6 1019.5,484 1037.9,471.6 1213.6,471.6 1213.6,314.9 
+			<g>
+				<polygon id="infoBox6" class="st8" points="825.5,471.6 1000.2,471.6 1019.5,484 1037.9,471.6 1213.6,471.6 1213.6,314.9 
 					825.5,314.9 				"/>
-				<circle class="st15" cx="865" cy="442" r="7.4"/>
-				<circle class="st15" cx="857.6" cy="422.4" r="7.4"/>
-				<circle class="st15" cx="902.2" cy="447.4" r="7.4"/>
-				<circle class="st15" cx="887.4" cy="427.7" r="7.4"/>
+				<circle class="st13" cx="865" cy="442" r="7.4"/>
+				<circle class="st13" cx="857.6" cy="422.4" r="7.4"/>
+				<circle class="st13" cx="902.2" cy="447.4" r="7.4"/>
+				<circle class="st13" cx="887.4" cy="427.7" r="7.4"/>
 				<g>
 					<g>
-						<line class="st19" x1="841.8" y1="403.5" x2="844.3" y2="403.5"/>
-						<line class="st20" x1="849.5" y1="403.5" x2="919.2" y2="403.5"/>
-						<line class="st19" x1="921.8" y1="403.5" x2="924.3" y2="403.5"/>
+						<line class="st17" x1="841.8" y1="403.5" x2="844.3" y2="403.5"/>
+						<line class="st18" x1="849.5" y1="403.5" x2="919.2" y2="403.5"/>
+						<line class="st17" x1="921.8" y1="403.5" x2="924.3" y2="403.5"/>
 					</g>
 				</g>
-				<rect x="841.8" y="322.4" class="st15" width="82.5" height="42.2"/>
-				<line class="st16" x1="924.3" y1="322.3" x2="924.3" y2="410.6"/>
-				<line class="st16" x1="841.8" y1="322.3" x2="841.8" y2="409.6"/>
-				<text transform="matrix(1 0 0 1 947.4622 348.2333)" class="st0 st12">Water wordt gefilterd </text>
-				<text transform="matrix(1 0 0 1 947.4622 377.0333)" class="st0 st12">in de wortelen van </text>
-				<text transform="matrix(1 0 0 1 947.4622 405.8333)" class="st0 st12">de planten</text>
-				<text transform="matrix(1 0 0 1 947.4623 436.6627)" class="st0 st13">11 mei is dit water toegevoegd </text>
-				<text transform="matrix(1 0 0 1 947.4623 453.4627)" class="st0 st13">bij de vissen</text>
+				<rect x="841.8" y="322.4" class="st13" width="82.5" height="42.2"/>
+				<line class="st14" x1="924.3" y1="322.3" x2="924.3" y2="410.6"/>
+				<line class="st14" x1="841.8" y1="322.3" x2="841.8" y2="409.6"/>
+				<text transform="matrix(1 0 0 1 947.4622 348.2333)" class="st0 st10">Water wordt gefilterd </text>
+				<text transform="matrix(1 0 0 1 947.4622 377.0333)" class="st0 st10">in de wortelen van </text>
+				<text transform="matrix(1 0 0 1 947.4622 405.8333)" class="st0 st10">de planten</text>
+				<text transform="matrix(1 0 0 1 947.4623 436.6627)" class="st0 st11">11 mei is dit water toegevoegd </text>
+				<text transform="matrix(1 0 0 1 947.4623 453.4627)" class="st0 st11">bij de vissen</text>
 			</g>
-			<g class="st9">
-				<polygon id="infoBox3_1_" class="st10" points="514.1,417.1 688.8,417.1 708.2,429.5 726.5,417.1 902.2,417.1 902.2,260.3 
+			<g>
+				<polygon id="infoBox3_1_" class="st8" points="514.1,417.1 688.8,417.1 708.2,429.5 726.5,417.1 902.2,417.1 902.2,260.3 
 					514.1,260.3 				"/>
-				<text transform="matrix(1 0 0 1 535.1998 300.2095)" class="st21"><tspan x="0" y="0" class="st0 st12">Het residu in het water wordt </tspan><tspan x="0" y="28.8" class="st0 st12">opgegeten door wormen.</tspan></text>
-				<text transform="matrix(1 0 0 1 535.1998 359.5001)" class="st21"><tspan x="0" y="0" class="st0 st13">De wormen zijn op dit moment druk bezig met </tspan><tspan x="0" y="16.8" class="st0 st13">het afbreken van organish afval</tspan><tspan x="0" y="33.6" class="st0 st13">Deze wormen worden aan de vissen gevoerd. </tspan></text>
+				<text transform="matrix(1 0 0 1 535.1998 300.2095)" class="st19"><tspan x="0" y="0" class="st0 st10">Het residu in het water wordt </tspan><tspan x="0" y="28.8" class="st0 st10">opgegeten door wormen.</tspan></text>
+				<text transform="matrix(1 0 0 1 535.1998 359.5001)" class="st19"><tspan x="0" y="0" class="st0 st11">De wormen zijn op dit moment druk bezig met </tspan><tspan x="0" y="16.8" class="st0 st11">het afbreken van organish afval</tspan><tspan x="0" y="33.6" class="st0 st11">Deze wormen worden aan de vissen gevoerd. </tspan></text>
 			</g>
 		</g>
 	</g>
 	<g id="Test">
-		<path class="st15" d="M931.5-236.1c77,5.8,90.6,46.2,156.1,38.5c34.5-4,47.3-6.7,83.9-24.7c17.1-8.4,39.5-16.6,64.9-19.8
+		<path class="st13" d="M931.5-236.1c77,5.8,90.6,46.2,156.1,38.5c34.5-4,47.3-6.7,83.9-24.7c17.1-8.4,39.5-16.6,64.9-19.8
 			c12.8-2.8,24.2-2.8,34.9-2c17.8,1.3,32.5,5.4,45.3,10.7c10.9,4,21.8,9.3,32.8,16.1c1.1,0.7,2.3,2.2,3.4,3.4
 			c1.1,0.7,2.2,1.4,3.3,2.1c0.3-0.1,0.6-0.2,0.8-0.4c-0.2,0.2-0.4,0.4-0.6,0.6c22.1,13.6,42.8,28.3,75.4,24.5
 			c34.5-4,43-25.1,79.6-43.1c40.1-19.7,108.9-38.1,177.9,5c2.5,1.6,5.3,7.1,7.6,5l48.4,211.5L142.8-2.4v-173
@@ -341,32 +340,32 @@
 			c12.8-2.8,24.2-2.8,34.9-2c17.8,1.3,32.5,5.4,45.3,10.7c10.9,4,21.8,9.3,32.8,16.1c1.1,0.7,2.3,2.2,3.4,3.4
 			c1.1,0.7,2.2,1.4,3.3,2.1c0.3-0.1,0.6-0.2,0.8-0.4c-0.2,0.2-0.4,0.4-0.6,0.6c22.1,13.6,46.5,10.5,79,6.7c34.5-4,39.4-7.3,76-25.3
 			c8.7-7,27.1-20,54-24.8C904.3-241,921.4-238.4,931.5-236.1z"/>
-		<path class="st22" d="M869.6-243.1c-220,3.4-400.5-11.4-620.5-7.9c-0.6,6.3-0.3,6.9-0.1,14.4c0.4,14.8,2.7,27.6,5.4,38
+		<path class="st20" d="M869.6-243.1c-220,3.4-400.5-11.4-620.5-7.9c-0.6,6.3-0.3,6.9-0.1,14.4c0.4,14.8,2.7,27.6,5.4,38
 			c31.3,106.1,89.5,147,111,158c84.6,43.3,230.5,31,479-177.1L869.6-243.1z"/>
 	</g>
-	<rect x="1893.3" y="-531.6" class="st23" width="139.7" height="196.5"/>
-	<line class="st24" x1="115.8" y1="-493" x2="1791.8" y2="-493"/>
-	<line class="st25" x1="255.5" y1="-526.1" x2="255.5" y2="-470.3"/>
-	<line class="st25" x1="395.2" y1="-526.1" x2="395.2" y2="-470.3"/>
-	<line class="st25" x1="534.9" y1="-526.1" x2="534.9" y2="-470.3"/>
-	<line class="st25" x1="674.6" y1="-526.1" x2="674.6" y2="-470.3"/>
-	<line class="st25" x1="953.8" y1="-526.1" x2="953.8" y2="-470.3"/>
-	<line class="st25" x1="1233.2" y1="-526.1" x2="1233.2" y2="-470.3"/>
-	<line class="st25" x1="1512.6" y1="-526.1" x2="1512.6" y2="-470.3"/>
-	<line class="st25" x1="1093.5" y1="-526.1" x2="1093.5" y2="-470.3"/>
-	<line class="st25" x1="1372.9" y1="-526.1" x2="1372.9" y2="-470.3"/>
-	<line class="st25" x1="1652.3" y1="-526.1" x2="1652.3" y2="-470.3"/>
-	<line class="st25" x1="814.3" y1="-526.1" x2="814.3" y2="-470.3"/>
+	<rect x="1893.3" y="-531.6" class="st21" width="139.7" height="196.5"/>
+	<line class="st22" x1="115.8" y1="-493" x2="1791.8" y2="-493"/>
+	<line class="st23" x1="255.5" y1="-526.1" x2="255.5" y2="-470.3"/>
+	<line class="st23" x1="395.2" y1="-526.1" x2="395.2" y2="-470.3"/>
+	<line class="st23" x1="534.9" y1="-526.1" x2="534.9" y2="-470.3"/>
+	<line class="st23" x1="674.6" y1="-526.1" x2="674.6" y2="-470.3"/>
+	<line class="st23" x1="953.8" y1="-526.1" x2="953.8" y2="-470.3"/>
+	<line class="st23" x1="1233.2" y1="-526.1" x2="1233.2" y2="-470.3"/>
+	<line class="st23" x1="1512.6" y1="-526.1" x2="1512.6" y2="-470.3"/>
+	<line class="st23" x1="1093.5" y1="-526.1" x2="1093.5" y2="-470.3"/>
+	<line class="st23" x1="1372.9" y1="-526.1" x2="1372.9" y2="-470.3"/>
+	<line class="st23" x1="1652.3" y1="-526.1" x2="1652.3" y2="-470.3"/>
+	<line class="st23" x1="814.3" y1="-526.1" x2="814.3" y2="-470.3"/>
 </g>
-<g id="Laag_2_1_" class="st8">
-	<path class="st26" d="M216.1,385.4c7.2-0.1,20.2,0.1,36.1,2.5c43.7,6.5,57.1,21.6,103.3,28c6.4,0.9,21,2.7,39.7,2.6
+<g id="Laag_2_1_" class="st24">
+	<path class="st25" d="M216.1,385.4c7.2-0.1,20.2,0.1,36.1,2.5c43.7,6.5,57.1,21.6,103.3,28c6.4,0.9,21,2.7,39.7,2.6
 		c10.6-0.1,27.1-0.8,46.3-4.1c41.4-7.2,44.4-17.8,85-25c7.9-1.4,25.3-4.1,47.8-4.1c22.2,0.1,39.9,2.6,50.2,4.7
 		c43.7,9.2,63.1,28.4,128.9,28.4c86.4,0,92.8-33.1,179.1-33.1c86.4,0,92.9,33.1,179.1,33.1c86.4,0,92.8-33.1,179.1-33.1
 		c86.3,0,92.7,33.1,178.9,33.1c86.2,0,92.6-33.1,178.9-33.1s92.8,33.1,179.3,33.1c65.6,0,84.9-19.2,128.5-28.3
 		c20.7-4.3,38.4-4.8,50.4-4.8c10.3,0,28.4,0.6,50.4,4.9c39.2,7.5,41.9,17.1,80.9,24.1c20.5,3.7,37.8,4.2,48.1,4.2
 		c9.1,0,22.5-0.4,37.7-2.6c43.5-6.1,54.9-19.2,96-26.7c9.9-1.8,25.5-4,45.2-3.9c0,81,0,162.1,0,243.1H216.2L216.1,385.4L216.1,385.4
 		z"/>
-	<path class="st26" d="M216.1,385.4c5.6-0.1,15.7,0.1,28.2,2.5c34.1,6.5,44.6,21.6,80.5,28c5,0.9,16.4,2.7,31,2.6
+	<path class="st25" d="M216.1,385.4c5.6-0.1,15.7,0.1,28.2,2.5c34.1,6.5,44.6,21.6,80.5,28c5,0.9,16.4,2.7,31,2.6
 		c8.3-0.1,21.2-0.8,36.1-4.1c32.3-7.2,34.6-17.8,66.3-25c6.1-1.4,19.7-4.1,37.3-4.1c17.3,0.1,31.1,2.6,39.2,4.7
 		c34,9.2,49.2,28.4,100.6,28.4c67.4,0,72.4-33.1,139.7-33.1c67.4,0,72.4,33.1,139.7,33.1c67.4,0,72.4-33.1,139.7-33.1
 		s72.3,33.1,139.5,33.1s72.2-33.1,139.5-33.1s72.4,33.1,139.9,33.1c51.1,0,66.2-19.2,100.2-28.3c16.1-4.3,29.9-4.8,39.3-4.8
@@ -374,10 +373,10 @@
 		c33.9-6.1,42.8-19.2,74.9-26.7c7.7-1.8,19.9-4,35.3-3.9c0,81,0,162.1,0,243.1H216.5v-243H216.1z"/>
 </g>
 <g class="st2">
-	<text transform="matrix(1 0 0 1 1040.5879 270)" class="st21"><tspan x="0" y="0" class="st0 st27">Klik op de sla om </tspan><tspan x="10.3" y="25.2" class="st0 st27">deze te oogsten</tspan></text>
+	<text transform="matrix(1 0 0 1 1040.5879 270)" class="st19"><tspan x="0" y="0" class="st0 st26">Klik op de sla om </tspan><tspan x="10.3" y="25.2" class="st0 st26">deze te oogsten</tspan></text>
 	<g>
 		<g>
-			<path class="st24" d="M1025.6,344.4c-0.7-2.7-1.1-5.1-1.3-7.2c-2-21-1.5-33.9,22-47.7"/>
+			<path class="st22" d="M1025.6,344.4c-0.7-2.7-1.1-5.1-1.3-7.2c-2-21-1.5-33.9,22-47.7"/>
 			<g>
 				<polygon points="1030.7,336.4 1025,342 1016.9,341.8 1030.3,355.4 				"/>
 			</g>

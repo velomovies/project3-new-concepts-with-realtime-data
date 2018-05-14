@@ -8,14 +8,68 @@ This repo holds the project we did for café de Ceuvel in Amsterdam.
 
 ## Background
 
-<!-- How about a section that describes how to install this project? 🤓 -->
+![Preview-2](src/images/preview1.png)
+> Homescreen of the website
 
-<!-- ...but how does one use this project? What are its features 🤔 -->
+## User Scenario
 
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
+## Principles
 
-<!-- Where do the 0️⃣s and 1️⃣s live in your project? What db system are you using?-->
+## Awesome code!
 
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
+## Data
 
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+The data I use is
+
+## Set up
+**1. Clone repository:**
+```
+git clone https://github.com/velomovies/project3-new-concepts-with-realtime-data.git
+```
+**2. Install dependencies:**
+```json
+{ "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^4.0.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-uglify": "^3.0.0",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "nunjucks": "^3.1.2",
+    "gulp-nodemon": "^2.2.1",
+    "dotenv": "^5.0.1"
+  },
+  "dependencies": {
+    "sockjs-client-node": "^1.0.0",
+    "stompjs": "^2.3.3"
+  }
+}  
+```
+
+To install all you have to do:
+```
+npm install
+```
+
+**3. Build and start server:**
+```
+gulp start
+```
+To run the server without opening a new tab you simply have to do:
+```
+gulp
+```
+
+## How do I see the future
+
+## License
+
+GPL-3.0 © Victor Zumpolle
