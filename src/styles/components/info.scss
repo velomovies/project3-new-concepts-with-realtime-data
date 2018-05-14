@@ -1,0 +1,41 @@
+ section.intro {
+    position: absolute;
+    background: none;
+    left: 20%;
+    top: 12vw;
+    
+    >p {
+      width: 30vw;
+      font-size: 1.5vw;
+      line-height: 1.5em;
+    }
+   
+    &.hidden {
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  section.outro {
+      position: absolute;
+      background: none;
+      left: 30%;
+      top: 12vw;
+      
+      >p {
+        width: 30vw;
+        font-size: 1.5vw;
+        line-height: 1.5em;
+      }
+
+      >h2 {
+        margin: 4vw 0;
+        font-size: 4vw;
+      }
+
+      &.hidden {
+        opacity: 0;
+        display: none;
+      }
+  }
+

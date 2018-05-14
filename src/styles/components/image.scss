@@ -1,0 +1,21 @@
+span {
+  position: absolute;
+  top: 30vw;
+  left: 50%;
+  opacity: .5;
+  img {
+    height: 2vw;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1vw;
+    width: 10vw;
+    margin-bottom: 1em;
+  }
+
+  &.hidden {
+    opacity: 0;
+    display: none;
+  }
+}

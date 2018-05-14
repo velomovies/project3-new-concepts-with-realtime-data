@@ -1,18 +1,6 @@
 'use strict';
 
 (function () {
-
-  var shapes = document.querySelector('.st6');
-  var infoBoxes = document.querySelectorAll('.st7');
-
-  // tl.staggerFromTo(shapes, 1, {drawSVG:'100%'}, {drawSVG:'50% 50%'}, 0.1)
-  // .fromTo(shapes, 0.1, {drawSVG:'0%'}, {drawSVG:'10%', immediateRender:false}, '+=0.1')
-  // .staggerTo(shapes, 1, {drawSVG:'90% 100%'}, 0.5)
-  // .to(shapes, 1, {scale:0.5, drawSVG:'100%', stroke:'white', strokeWidth:6, transformOrigin:'50% 50%'})
-  // .staggerTo(shapes, 0.5, {stroke:'red', scale:1.5, opacity:0}, 0.2)
-
-  var infinity = document.querySelector('#infinity g circle');
-
   var app = {
     init: function init() {
       animation.init();
@@ -41,7 +29,10 @@
     waterTwo: document.querySelector('#clipped-water2 path'),
     catfish: document.querySelector('#catfish'),
     lettuce: document.querySelector('#lettuce .green'),
-    roots: document.querySelector('.roots')
+    roots: document.querySelector('.roots'),
+    intro: document.querySelector('.intro'),
+    outro: document.querySelector('.outro'),
+    title: document.querySelector('text.title')
   };
 
   var water = {
@@ -56,7 +47,7 @@
 
   var catfish = {
     draggable: function draggable() {
-      Draggable.create(svg.catfish, { type: 'x,y', edgeResistance: 0.65, bounds: svg.element, onRelease: catfish.inWater });
+      Draggable.create(svg.catfish, { type: 'x,y', edgeResistance: 0.65, bounds: svg.element, onPress: catfish.removeMessage, onRelease: catfish.inWater });
     },
     inWater: function inWater() {
       if (this.hitTest(svg.waterClipped, '80%')) {
@@ -70,6 +61,11 @@
       var timelineInWater = new TimelineMax();
       timelineInWater.to(svg.catfish, 1, { scale: .3, x: 300, y: 375, transformOrigin: '50% 50%', ease: Back.easeOut });
       catfish.swim();
+    },
+    removeMessage: function removeMessage() {
+      TweenMax.to(document.querySelector('span'), 1, { opacity: 0 }).add(function () {
+        document.querySelector('span').classList.add('hidden');
+      });
     },
     swim: function swim() {
       var timelineSwim = new TimelineMax();
@@ -99,15 +95,17 @@
   };
 
   var animation = {
-    time: 30,
+    time: 20,
     init: function init() {
       TweenMax.to(svg.aquaponics, 1, { xPercent: 35, ease: Back.easeOut });
     },
     harvested: function harvested(tl) {
       svg.element.classList.add('hidden');
       svg.catfish.classList.add('hidden');
+      svg.outro.classList.remove('hidden');
       tl.to(svg.lettuce, 1, { scale: 2, x: '50' });
       TweenMax.to(svg.aquaponics, 1, { xPercent: -42.5, ease: Back.easeOut });
+      TweenMax.to(svg.title, .3, { xPercent: 40, ease: Power1.easeOut });
     },
     delay: function delay(i) {
       var delayArray = [animation.time / 11, animation.time / 4, animation.time / 2.65, animation.time / 2.02, animation.time / 1.62, animation.time / 1.29, animation.time / 1.09, animation.time / 1];
@@ -119,10 +117,10 @@
       lettuce.grow();
       animation.openInfo();
       TweenMax.to(svg.aquaponics, 1, { xPercent: 0, ease: Back.easeOut });
+      svg.intro.classList.add('hidden');
       svg.element.classList.remove('hidden');
     },
     openInfo: function openInfo() {
-
       var timelineCircle = new TimelineMax();
 
       timelineCircle.to(svg.followPathCircle, 1, { opacity: 0 }).delay(animation.delay(svg.infoCircles.length - 1));

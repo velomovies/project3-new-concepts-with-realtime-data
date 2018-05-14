@@ -1,4 +1,7 @@
 svg {
+  background: #ededed;
+  box-shadow: .1em .1em .1em #ededed;
+  
   #infinity, {
     fill: none;
     stroke: #333333;
@@ -40,6 +43,7 @@ svg {
 
   &.hidden {
     .st6, #circlePath, #infoBox {
+      display: none;
       opacity: 0;
     }
   }

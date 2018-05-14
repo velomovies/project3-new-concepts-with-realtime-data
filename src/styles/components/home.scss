@@ -1,0 +1,11 @@
+section {
+  &.home {
+    text-align: center;
+    ul {
+      margin-top: 50vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}

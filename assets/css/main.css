@@ -25,130 +25,184 @@ fieldset {
   fieldset legend {
     padding: 0; }
 
-section {
-  margin: .5em;
-  background: #ededed;
-  box-shadow: .1em .1em .1em #ededed;
-  max-height: 100vh; }
+body {
+  max-height: 100vh;
+  font-family: 'Work Sans', sans-serif; }
+  body h1 {
+    font-size: 5vw;
+    top: 1em;
+    left: 15vw;
+    position: absolute;
+    margin: 0; }
+  body p {
+    margin: 0; }
 
 /* component styles */
-svg #infinity {
-  fill: none;
-  stroke: #333333;
-  stroke-width: 5; }
+section.home {
+  text-align: center; }
+  section.home ul {
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
 
-svg #circlePath {
-  opacity: 1;
-  transition: all 1s;
-  transition-delay: 1s; }
-
-svg #info circle:hover {
-  fill: #fcb25d;
-  cursor: pointer; }
-
-svg #infoBox polygon {
-  opacity: 0;
-  transform-origin: 0px 0px 0px;
-  z-index: 3; }
-
-svg #lettuce g.green:hover {
-  cursor: pointer; }
-  svg #lettuce g.green:hover path {
-    opacity: .5; }
-
-svg.hidden .st6, svg.hidden #circlePath, svg.hidden #infoBox {
-  opacity: 0; }
-
-svg #lettuce .green.hidden, svg #catfish.hidden {
-  opacity: 0; }
-
-svg.hidden #lettuce g.green:hover {
-  cursor: default; }
-  svg.hidden #lettuce g.green:hover .st10 {
-    fill: #44AF69;
-    opacity: 1; }
-  svg.hidden #lettuce g.green:hover .st11 {
+svg {
+  background: #ededed;
+  box-shadow: .1em .1em .1em #ededed; }
+  svg #infinity {
+    fill: none;
+    stroke: #333333;
+    stroke-width: 5; }
+  svg #circlePath {
+    opacity: 1;
+    transition: all 1s;
+    transition-delay: 1s; }
+  svg #info circle:hover {
+    fill: #fcb25d;
+    cursor: pointer; }
+  svg #infoBox polygon {
+    opacity: 0;
+    transform-origin: 0px 0px 0px;
+    z-index: 3; }
+  svg #lettuce g.green:hover {
+    cursor: pointer; }
+    svg #lettuce g.green:hover path {
+      opacity: .5; }
+  svg.hidden .st6, svg.hidden #circlePath, svg.hidden #infoBox {
+    display: none;
+    opacity: 0; }
+  svg #lettuce .green.hidden, svg #catfish.hidden {
+    opacity: 0; }
+  svg.hidden #lettuce g.green:hover {
+    cursor: default; }
+    svg.hidden #lettuce g.green:hover .st10 {
+      fill: #44AF69;
+      opacity: 1; }
+    svg.hidden #lettuce g.green:hover .st11 {
+      fill: #44AF69;
+      opacity: .6; }
+  svg .infoText {
+    opacity: 0; }
+  svg .st0 {
+    fill: #29ABE2; }
+  svg .st1 {
+    fill: none;
+    stroke: #0071BC;
+    stroke-width: 5;
+    stroke-miterlimit: 10; }
+  svg .st2 {
+    fill: #C69C6D; }
+  svg .st3 {
+    fill: none;
+    stroke: #A67C52;
+    stroke-width: 5;
+    stroke-miterlimit: 10; }
+  svg .st4 {
+    fill: none;
+    stroke: #333333;
+    stroke-width: 15; }
+  svg .st5 {
+    fill: #F7931E;
+    stroke: #ededed;
+    stroke-width: 5;
+    stroke-miterlimit: 10; }
+  svg .st6 {
+    fill: #333333;
+    stroke: #ededed;
+    stroke-width: 5; }
+  svg .st7 {
+    fill: #FFFFFF;
+    stroke: #333333;
+    stroke-width: 5.9687;
+    stroke-miterlimit: 10; }
+  svg .st8 {
+    fill: #2274A5;
+    opacity: .6; }
+  svg .st9 {
+    fill: #854D27;
+    opacity: .6; }
+  svg .st10 {
+    fill: #44AF69; }
+  svg .st11 {
     fill: #44AF69;
     opacity: .6; }
+  svg .st12 {
+    fill: none;
+    stroke: #6B5648;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-miterlimit: 10; }
+  svg .st13 {
+    fill: none;
+    stroke: #6B5648;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-miterlimit: 10; }
+  svg .st14 {
+    fill: none;
+    stroke: #6B5648;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-miterlimit: 10; }
+  svg .active {
+    fill: #F7931E; }
 
-svg .infoText {
-  opacity: 0; }
+section.intro {
+  position: absolute;
+  background: none;
+  left: 20%;
+  top: 12vw; }
+  section.intro > p {
+    width: 30vw;
+    font-size: 1.5vw;
+    line-height: 1.5em; }
+  section.intro.hidden {
+    opacity: 0;
+    display: none; }
 
-svg .st0 {
-  fill: #29ABE2; }
+section.outro {
+  position: absolute;
+  background: none;
+  left: 30%;
+  top: 12vw; }
+  section.outro > p {
+    width: 30vw;
+    font-size: 1.5vw;
+    line-height: 1.5em; }
+  section.outro > h2 {
+    margin: 4vw 0;
+    font-size: 4vw; }
+  section.outro.hidden {
+    opacity: 0;
+    display: none; }
 
-svg .st1 {
-  fill: none;
-  stroke: #0071BC;
-  stroke-width: 5;
-  stroke-miterlimit: 10; }
+.large-text {
+  font-size: 50px; }
 
-svg .st2 {
-  fill: #C69C6D; }
+.larger-text {
+  font-size: 75px; }
 
-svg .st3 {
-  fill: none;
-  stroke: #A67C52;
-  stroke-width: 5;
-  stroke-miterlimit: 10; }
+.text {
+  font-size: 21px; }
 
-svg .st4 {
-  fill: none;
-  stroke: #333333;
-  stroke-width: 15; }
+.small-text {
+  font-size: 14px; }
 
-svg .st5 {
-  fill: #F7931E;
-  stroke: #ededed;
-  stroke-width: 5;
-  stroke-miterlimit: 10; }
+.bold {
+  font-weight: bold; }
 
-svg .st6 {
-  fill: #333333;
-  stroke: #ededed;
-  stroke-width: 5; }
-
-svg .st7 {
-  fill: #FFFFFF;
-  stroke: #333333;
-  stroke-width: 5.9687;
-  stroke-miterlimit: 10; }
-
-svg .st8 {
-  fill: #2274A5;
-  opacity: .6; }
-
-svg .st9 {
-  fill: #854D27;
-  opacity: .6; }
-
-svg .st10 {
-  fill: #44AF69; }
-
-svg .st11 {
-  fill: #44AF69;
-  opacity: .6; }
-
-svg .st12 {
-  fill: none;
-  stroke: #6B5648;
-  stroke-width: 5;
-  stroke-linecap: round;
-  stroke-miterlimit: 10; }
-
-svg .st13 {
-  fill: none;
-  stroke: #6B5648;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-miterlimit: 10; }
-
-svg .st14 {
-  fill: none;
-  stroke: #6B5648;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10; }
-
-svg .active {
-  fill: #F7931E; }
+span {
+  position: absolute;
+  top: 30vw;
+  left: 50%;
+  opacity: .5; }
+  span img {
+    height: 2vw; }
+  span p {
+    text-align: center;
+    font-size: 1vw;
+    width: 10vw;
+    margin-bottom: 1em; }
+  span.hidden {
+    opacity: 0;
+    display: none; }

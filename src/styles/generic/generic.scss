@@ -1,6 +1,17 @@
-section {
-  margin: .5em;
-  background: #ededed;
-  box-shadow: .1em .1em .1em #ededed;
+body {
   max-height: 100vh;
+  font-family: 'Work Sans', sans-serif;
+  
+  h1 {
+    font-size: 5vw;
+    top: 1em;
+    left: 15vw;
+    position: absolute;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
 }
+
