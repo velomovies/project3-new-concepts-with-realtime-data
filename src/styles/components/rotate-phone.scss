@@ -1,0 +1,25 @@
+.landscape-only {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1001;
+  background: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FF4343;
+  font-weight: 600;
+  display: none;
+
+  img {
+      margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (orientation: portrait) and (max-width: 37.5rem) {
+  .landscape-only {
+    display: flex; 
+  } 
+}
