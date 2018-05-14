@@ -100,7 +100,7 @@
   }
 
   const animation = {
-    time: 30,
+    time: 60,
     init: function () {
       TweenMax.to(svg.aquaponics, 1, {xPercent: 35, ease: Back.easeOut})
     },
