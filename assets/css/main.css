@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* base styles */
 body {
   margin: 0;
@@ -37,14 +38,56 @@ body {
   body p {
     margin: 0; }
 
+button.back-button {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-family: 'Work Sans', sans-serif;
+  border: none;
+  background-color: #333333;
+  border-radius: .5em;
+  color: #ffffff;
+  padding: 1em 2em;
+  transition: all .3s; }
+  button.back-button:before {
+    content: '← '; }
+  button.back-button:hover {
+    opacity: .5;
+    cursor: pointer; }
+
+button.hidden {
+  opacity: 0;
+  display: none; }
+
 /* component styles */
 section.home {
   text-align: center; }
   section.home ul {
-    margin-top: 50vh;
+    margin-top: 30vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
+    section.home ul a {
+      display: flex;
+      flex-direction: column;
+      color: #333333;
+      text-decoration: none;
+      font-size: 1.5em;
+      transition: all .3s; }
+      section.home ul a img {
+        height: 5em;
+        margin-bottom: 1em;
+        transition: all .3s; }
+      section.home ul a:hover {
+        text-decoration: underline; }
+        section.home ul a:hover img {
+          transform: scale(1.1); }
+    section.home ul .off {
+      filter: grayscale(100%); }
+      section.home ul .off a:hover {
+        text-decoration: none; }
+        section.home ul .off a:hover img {
+          transform: scale(0.95); }
 
 svg {
   background: #ededed;
@@ -83,6 +126,36 @@ svg {
       opacity: .6; }
   svg .infoText {
     opacity: 0; }
+  svg .message {
+    opacity: 0; }
+    svg .message .arrow {
+      fill: none;
+      stroke: #000000;
+      stroke-width: 2;
+      stroke-miterlimit: 10; }
+  svg .poo {
+    fill: #854D27; }
+  svg .bacteria {
+    fill: #BF211E; }
+  svg .water {
+    fill: #29ABE2; }
+  svg .pipe {
+    fill: none;
+    stroke: #333333;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-miterlimit: 10; }
+  svg .filter {
+    fill: none;
+    stroke: #333333;
+    stroke-width: 5.9687;
+    stroke-miterlimit: 10; }
+  svg .filter1 {
+    fill: none;
+    stroke: #333333;
+    stroke-width: 5.9687;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 5.1667, 5.1667; }
   svg .st0 {
     fill: #29ABE2; }
   svg .st1 {
@@ -187,6 +260,9 @@ section.outro {
 
 .small-text {
   font-size: 14px; }
+
+.under-title {
+  opacity: 0; }
 
 .bold {
   font-weight: bold; }

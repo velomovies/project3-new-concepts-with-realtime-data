@@ -1,0 +1,28 @@
+button {
+  &.back-button {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    background-color: #333333;
+    border-radius: .5em;
+    color: #ffffff;
+    padding: 1em 2em;
+    transition: all .3s;
+
+    &:before {
+      content: '← '
+    }
+
+    &:hover {
+      opacity: .5;
+      cursor: pointer;
+    }
+  }
+
+  &.hidden {
+    opacity: 0;
+    display: none;
+  }
+}

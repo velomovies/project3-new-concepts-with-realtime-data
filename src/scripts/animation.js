@@ -11,6 +11,9 @@
       elements.forEach(function (el) {
         el.classList.remove(classElement)
       })
+    },
+    removeHidden: function () {
+      svg.element.classList.remove('hidden')
     }
   }
 
@@ -30,7 +33,9 @@
     roots: document.querySelector('.roots'),
     intro: document.querySelector('.intro'),
     outro: document.querySelector('.outro'),
-    title: document.querySelector('text.title')
+    title: document.querySelector('text.title'),
+    message: document.querySelector('.message'),
+    back: document.querySelector('.back-button')
   }
 
   const water = {
@@ -45,9 +50,10 @@
 
   const catfish = {
     draggable: function () {
-      Draggable.create(svg.catfish, {type: 'x,y', edgeResistance: 0.65, bounds: svg.element, onPress: catfish.removeMessage, onRelease: catfish.inWater})
+      Draggable.create(svg.catfish, {type: 'x,y', edgeResistance: 0.65, bounds: svg.element, onRelease: catfish.inWater})
     },
     inWater: function () {  
+      catfish.removeMessage()
       if (this.hitTest(svg.waterClipped, '80%')) {
         Draggable.get(svg.catfish).disable()
         animation.loop()
@@ -61,9 +67,7 @@
       catfish.swim()
     },
     removeMessage: function () {
-      TweenMax.to(document.querySelector('span'), 1, {opacity: 0}).add(function () {
-        document.querySelector('span').classList.add('hidden')
-      })
+      TweenMax.to(document.querySelector('span'), 0.5, {opacity: 0})
     },
     swim: function () {
       let timelineSwim = new TimelineMax()
@@ -84,6 +88,9 @@
     },
     harvest: function (tl) {
       tl.to(svg.lettuce, 0.5, {opacity: 0.9, scale: 0.9, ease: Power0.easeNone, yoyo: true, repeat: -1})
+      svg.back.addEventListener('click', function () {
+        animation.harvestedBack(tl)
+      })
       svg.lettuce.addEventListener('click', function () {
         animation.hideInfo()
         animation.harvested(tl)
@@ -93,17 +100,27 @@
   }
 
   const animation = {
-    time: 20,
+    time: 30,
     init: function () {
       TweenMax.to(svg.aquaponics, 1, {xPercent: 35, ease: Back.easeOut})
     },
     harvested: function (tl) {
       svg.element.classList.add('hidden')
       svg.catfish.classList.add('hidden')
+      svg.back.classList.remove('hidden')
       svg.outro.classList.remove('hidden')
       tl.to(svg.lettuce, 1, {scale: 2, x: '50'})
       TweenMax.to(svg.aquaponics, 1, {xPercent: -42.5, ease: Back.easeOut})
       TweenMax.to(svg.title, .3, {xPercent: 40, ease: Power1.easeOut})
+      TweenMax.to(svg.message, 0.5, {opacity:0})
+    },
+    harvestedBack: function (tl) {
+      svg.catfish.classList.remove('hidden')
+      svg.back.classList.add('hidden')
+      svg.outro.classList.add('hidden')
+      tl.to(svg.lettuce, 1, {scale: 1, x: '0', opacity: 1})
+      TweenMax.to(svg.aquaponics, .1, {xPercent: 0, ease: Power0.easeNone, onComplete: app.removeHidden})
+      TweenMax.to(svg.title, .3, {xPercent: 0, ease: Power1.easeOut})
     },
     delay: function (i) {
       const delayArray = [animation.time / 11, animation.time / 4, animation.time / 2.65, animation.time / 2.02, animation.time / 1.62, animation.time / 1.29, animation.time / 1.09, animation.time / 1]
@@ -141,6 +158,8 @@
     },
     showInfo: function (el, i, delay) {
       let timelineAnimation = new TimelineMax({yoyo: true})
+
+      TweenMax.to(svg.message, 0.5, {opacity: 0.5}).delay(animation.delay(svg.infoCircles.length))
 
       timelineAnimation.add(function () {
         el.classList.add('active')

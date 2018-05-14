@@ -1,7 +1,7 @@
 svg {
   background: #ededed;
   box-shadow: .1em .1em .1em #ededed;
-  
+
   #infinity, {
     fill: none;
     stroke: #333333;
@@ -72,6 +72,51 @@ svg {
     opacity: 0;
   }
 
+  .message {
+    opacity: 0;
+    .arrow {
+      fill: none;
+      stroke: #000000;
+      stroke-width: 2;
+      stroke-miterlimit: 10;
+    }
+  }  
+
+  .poo {
+    fill: #854D27;
+  }
+
+  .bacteria {
+    fill: #BF211E;
+  }
+
+  .water {
+    fill: #29ABE2;
+  }
+
+  .pipe {
+    fill:none;
+    stroke: #333333;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+
+  .filter {
+    fill: none;
+    stroke: #333333;
+    stroke-width: 5.9687;
+    stroke-miterlimit: 10;
+  }
+
+  .filter1 {
+    fill: none;
+    stroke: #333333;
+    stroke-width: 5.9687;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 5.1667, 5.1667;
+  }
+  
   .st0 {
     fill: #29ABE2;
   }
